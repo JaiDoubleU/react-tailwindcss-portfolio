@@ -82,8 +82,9 @@ const ContactForm = () => {
 						></textarea>
 					</div>
 
-					<div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+					<div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-green-500 hover:bg-green-600 focus:ring-1 focus:ring-green-900 rounded-lg mt-6 duration-500">
 						<Button
+							className="bg-green-700"
 							title="Send Message"
 							type="submit"
 							aria-label="Send Message"

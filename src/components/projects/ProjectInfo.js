@@ -26,7 +26,7 @@ const ProjectInfo = () => {
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'
-													? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+													? 'hover:underline hover:text-green-500 dark:hover:text-green-400 cursor-pointer duration-300'
 													: ''
 											}
 											aria-label="Project Website and Phone"

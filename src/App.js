@@ -16,9 +16,9 @@ function App() {
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
-					<ScrollToTop />
 					<AppHeader />
-					<Routes>
+					<ScrollToTop />
+					<Routes className="pt-20">
 						<Route path="/" element={<Home />} />
 						<Route path="projects" element={<Projects />} />
 						<Route

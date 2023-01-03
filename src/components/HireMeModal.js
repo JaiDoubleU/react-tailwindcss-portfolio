@@ -105,10 +105,10 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											py-2
 											sm:py-2.5
 											text-white
-											bg-indigo-500
-											hover:bg-indigo-600
+											bg-green-500
+											hover:bg-green-600
 											rounded-md
-											focus:ring-1 focus:ring-indigo-900 duration-500"
+											focus:ring-1 focus:ring-green-900 duration-500"
 										aria-label="Submit Request"
 									>
 										<Button title="Send Request" />
@@ -124,7 +124,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									sm:px-6
 									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
 									rounded-md
-									focus:ring-1 focus:ring-indigo-900 duration-500"
+									focus:ring-1 focus:ring-green-900 duration-500"
 								aria-label="Close Modal"
 							>
 								<Button title="Close" />

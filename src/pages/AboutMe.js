@@ -7,12 +7,16 @@ import { motion } from 'framer-motion';
 const About = () => {
 	return (
 		<AboutMeProvider>
+			
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
-				className="container mx-auto"
+				className="container mx-auto pt-20 "
 			>
+				<p className="font-general-medium text-2xl sm:text-4xl mb-3 mt-5 text-ternary-dark dark:text-ternary-light">
+					About Me
+				</p>
 				<AboutMeBio />
 			</motion.div>
 
@@ -29,7 +33,7 @@ const About = () => {
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
-				className="container mx-auto"
+				className="container mx-auto pt-10"
 			>
 				<AboutClients />
 			</motion.div>

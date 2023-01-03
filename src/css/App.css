@@ -1,7 +1,14 @@
 /*== 
  * React & TailwindCSS Portfolio Main CSS File
- * Powered by: @realstoman
+ * Powered by: Jason Shannon
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
 
 body {
 	font-family: 'GeneralSans-Variable';
@@ -206,7 +213,7 @@ body {
 
 /* Scroll to top style */
 .scrollToTop {
-	@apply bg-indigo-600;
+	@apply bg-green-600;
 	@apply text-white;
 	position: fixed;
 	width: 100%;

@@ -1,5 +1,5 @@
 {
-	"name": "react-tailwindcss-portfolio",
+	"name": "jaidoubleu-react-tailwindcss-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -7,6 +7,8 @@
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
 		"framer-motion": "4.1.17",
+		"ncu": "^0.2.1",
+		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
 		"react-dom": "^18.1.0",
@@ -22,7 +24,9 @@
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+    	"firebase-deployOnly": "firebase deploy",
+		"firebase-deploy": "firebase deploy --token \"1//062FMoaxU2P4YCgYIARAAGAYSNwF-L9IreL2fshYBGkQkyRzbO5xIDMwExyEZxfbTprIDlQTDlxBcBXDMbGvMkeWmYjrcB78WNtU\""
 	},
 	"eslintConfig": {
 		"extends": [
@@ -45,7 +49,7 @@
 	"devDependencies": {
 		"@tailwindcss/forms": "^0.5.2",
 		"autoprefixer": "^10.4.7",
-		"postcss": "^8.4.14",
+		"postcss": "^8.4.20",
 		"tailwindcss": "^3.0.24"
 	}
 }
