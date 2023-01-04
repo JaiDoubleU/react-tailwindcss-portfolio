@@ -7,7 +7,7 @@ const AboutClients = () => {
 
 	return (
 		<div className="mt-10 sm:mt-10">
-			<p className="font-general-medium text-2xl sm:text-3xl mb-2 mt-5 text-ternary-dark dark:text-ternary-light ">
+			<p className="font-general-medium text-2xl sm:text-3xl mb-2 mt-5 text-stone-700 dark:text-stone-200 ">
 					{clientsHeading}
 				</p>
 		

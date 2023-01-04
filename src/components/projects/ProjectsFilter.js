@@ -24,7 +24,7 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 bg-secondary-light
                 dark:bg-ternary-dark
                 text-primary-dark
-                dark:text-ternary-light
+                dark:text-stone-200
             "
 		>
 			<option value={setSelectProject} className="text-sm sm:text-md">

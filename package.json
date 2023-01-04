@@ -25,7 +25,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
-    	"firebase-deployOnly": "firebase deploy",
+    	"firebase-useThenDeploy": "yarn run react-scripts build &&  firebase use \"website-ad1df\" &&  firebase deploy",
 		"firebase-deploy": "firebase deploy --token \"1//062FMoaxU2P4YCgYIARAAGAYSNwF-L9IreL2fshYBGkQkyRzbO5xIDMwExyEZxfbTprIDlQTDlxBcBXDMbGvMkeWmYjrcB78WNtU\""
 	},
 	"eslintConfig": {

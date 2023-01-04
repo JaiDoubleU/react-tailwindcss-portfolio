@@ -14,7 +14,7 @@ const About = () => {
 				exit={{ opacity: 0 }}
 				className="container mx-auto pt-20 "
 			>
-				<p className="font-general-medium text-2xl sm:text-4xl mb-3 mt-5 text-ternary-dark dark:text-ternary-light">
+				<p className="font-general-medium text-2xl sm:text-4xl mb-3 mt-5 text-stone-700 dark:text-stone-200">
 					About Me
 				</p>
 				<AboutMeBio />

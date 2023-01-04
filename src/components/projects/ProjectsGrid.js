@@ -18,33 +18,18 @@ const ProjectsGrid = () => {
 	return (
 		<section className="pb-5 sm:pb-10 mt-5 sm:mt-5">
 			<div className="text-left">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-stone-500 dark:text-stone-200">
 					Projects
 				</p>
 			</div>
 
 			<div className="mt-5 sm:mt-5">
 				<h3
-					className="font-general-regular 
-                        text-left text-secondary-dark
-                        dark:text-ternary-light
-                        text-md
-                        sm:text-xl
-                        mb-3
-                        "
-				>
+					className="font-general-regular  text-left text-stone-500 dark:text-stone-200 text-md sm:text-xl mb-3 ">
 					Search projects by title or filter by category
 				</h3>
 				<div
-					className="
-                        flex
-                        justify-between
-                        border-b border-primary-light
-                        dark:border-secondary-dark
-                        pb-3
-                        gap-3
-                        "
-				>
+					className="flex justify-between border-b border-primary-light dark:border-secondary-dark  pb-3 gap-3 ">
 					<div className="flex justify-between gap-2">
 						<span
 							className="
@@ -56,9 +41,8 @@ const ProjectsGrid = () => {
                                 shadow-sm
                                 rounded-xl
                                 cursor-pointer
-                                "
-						>
-							<FiSearch className="text-ternary-dark dark:text-ternary-light w-5 h-5"></FiSearch>
+                                ">
+							<FiSearch className="text-stone-700 dark:text-stone-200 w-5 h-5"></FiSearch>
 						</span>
 						<input
 							onChange={(e) => {
@@ -78,7 +62,7 @@ const ProjectsGrid = () => {
                                 bg-secondary-light
                                 dark:bg-ternary-dark
                                 text-primary-dark
-                                dark:text-ternary-light
+                                dark:text-stone-200
                                 "
 							id="name"
 							name="name"

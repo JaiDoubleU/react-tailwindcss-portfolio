@@ -15,19 +15,19 @@ const socialLinks = [
 	{
 		id: 3,
 		icon: <FiBook />,
-		url: 'https://stoman.medium.com',
+		url: 'https://medium.com/@jaidoubleu',
 	},
 	{
 		id: 4,
 		icon: <FiInstagram />,
-		url: 'https://instagram.com/realstoman',
+		url: 'https://instagram.com/JaiDoubleU',
 	},
 ];
 
 const AppFooter = () => {
 	return (
-		<div className="container mx-auto">
-			<div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
+		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-700 text-white w-full  px-3 ">
+			<div className="pt-10 pb-8 mt-10 border-t-2 border-primary-light dark:border-secondary-dark">
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
 					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
@@ -39,7 +39,7 @@ const AppFooter = () => {
 								href={link.url}
 								target="__blank"
 								key={link.id}
-								className="text-gray-600 hover:text-green-500 dark:hover:text-green-400 cursor-pointer rounded-lg bg-gray-300 dark:bg-zinc-500 hover:bg-gray-100 shadow-sm p-4 duration-300"
+								className="text-stone-600 hover:text-green-500 dark:hover:text-green-400 cursor-pointer rounded-lg bg-gray-300 dark:bg-zinc-500 hover:bg-gray-100 shadow-sm p-4 duration-300"
 							>
 								<i className="text-xl sm:text-2xl md:text-3xl">
 									{link.icon}

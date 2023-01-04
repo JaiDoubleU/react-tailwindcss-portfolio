@@ -40,7 +40,7 @@ const AppHeader = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className=" sm:mx-auto bg-black text-white w-full fixed top-0 left-0 right-0 px-6"
+			className=" sm:mx-auto dark:bg-zinc-900 bg-zinc-700 text-white w-full fixed top-0 left-0 right-0 px-6 z-50"
 		>
 			<div className="z-10 w-full block sm:flex sm:justify-between sm:items-center py-2 ">
 				{/* Header menu links and small screen hamburger menu */}
@@ -57,7 +57,7 @@ const AppHeader = () => {
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
-								className="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light"
+								className="h-7 w-7 fill-current text-secondary-dark dark:text-stone-200"
 							>
 								{showMenu ? (
 									<FiX className="text-3xl" />
@@ -93,9 +93,9 @@ const AppHeader = () => {
 						className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-stone-700 hover:text-stone-400 dark:text-stone-200 dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+							<FiSun className="text-stone-700 hover:text-stone-50 text-xl" />
 						)}
 					</div>
 				</div>
@@ -110,28 +110,28 @@ const AppHeader = () => {
 				>
 					<Link
 						to="/"
-						className="block text-left text-lg text-secondary-light hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200 hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Home"
 					>
 						Home
 					</Link>
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-secondary-light hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200 hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-secondary-light hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200 hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-lg text-primary-light dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-primary-light dark:text-stone-200 hover:text-secondary-dark dark:hover:text-stone-200  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="Contact"
 					>
 						Contact
@@ -151,7 +151,7 @@ const AppHeader = () => {
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 py-3 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 										<Link
 						to="/"
-						className="block text-left text-lg text-secondary-light  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Home"
 					>
 						Home
@@ -159,21 +159,21 @@ const AppHeader = () => {
 
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-secondary-light  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-secondary-light  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-lg text-secondary-light  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-stone-200  hover:text-primary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						Contact
@@ -201,9 +201,9 @@ const AppHeader = () => {
 
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-light hover:text-gray-100 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-stone-300 hover:text-stone-100 dark:text-stone-200 dark:hover:text-primary-light text-xl" />
 						) : (
-							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
+							<FiSun className="text-stone-700 hover:text-stone-50 text-xl" />
 						)}
 					</div>
 				</div>
