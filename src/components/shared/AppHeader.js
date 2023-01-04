@@ -73,13 +73,13 @@ const AppHeader = () => {
 							{activeTheme === 'dark' ? (
 								<img
 									src={logoDark}
-									className="w-44"
+									className="w-2/3"
 									alt="Dark Logo"
 								/>
 							) : (
 								<img
 									src={logoLight}
-									className="w-44"
+									className="w-2/3"
 									alt="Dark Logo"
 								/>
 							)}

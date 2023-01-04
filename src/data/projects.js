@@ -1,5 +1,5 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
+import WebImage1 from '../images/desktopAppMockup1.png';
 import WebImage2 from '../images/web-project-2.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
@@ -9,11 +9,11 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Procurement RFX Application',
 		category: 'Web Application',
-		img: WebImage2,
+		img: WebImage1,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
+			title: 'Procurement Request Management Application',
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},

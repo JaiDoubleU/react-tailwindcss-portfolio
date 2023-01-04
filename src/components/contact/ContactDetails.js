@@ -28,10 +28,10 @@ const ContactDetails = () => {
 				<ul className="font-general-regular">
 					{contacts.map((contact) => (
 						<li className="flex " key={contact.id}>
-							<i className="text-2xl text-stone-500 dark:text-stone-200 mr-4">
+							<i className="text-2xl light:text-stone-700 dark:text-stone-200 mr-4">
 								{contact.icon}
 							</i>
-							<span className="text-lg mb-4 text-stone-700 dark:text-stone-200">
+							<span className="text-lg mb-4 light:text-stone-700 dark:text-stone-200">
 								{contact.name}
 							</span>
 						</li>
