@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "website-ad1df"
+  }
+}
