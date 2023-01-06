@@ -15,9 +15,8 @@ const AppBanner = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ ease: 'easeInOut', duration: 0.6, delay: 0.2 }}
-			className="flex flex-col sm:justify-between items-center sm:flex-row "
-		>
-			<div className="w-2/3 md:w-2/3 text-left  text-stone-500 dark:text-stone-700">
+			className="flex flex-col sm:justify-between items-center sm:flex-row ">
+			<div className="w-2/3 md:w-2/3 text-left  text-zinc-500 dark:text-zinc-700 hover:text-zinc-100">
 				<motion.h1
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -26,7 +25,7 @@ const AppBanner = () => {
 						duration: 0.6,
 						delay: 0.2,
 					}}
-					className="font-general-semibold text-3xl lg:text-4xl xl:text-5xl text-center sm:text-left text-stone-900 dark:text-stone-300"
+					className="font-general-semibold text-3xl lg:text-4xl xl:text-5xl text-center sm:text-left text-zinc-700 dark:text-zinc-300 hover:text-zinc-100"
 				>
 					Hi, I'm Jason
 				</motion.h1>
@@ -38,7 +37,7 @@ const AppBanner = () => {
 						duration: 0.6,
 						delay: 0.2,
 					}}
-					className="font-general mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal light:text-stone-600 dark:text-stone-300">
+					className="font-general mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-zinc-700 dark:text-zinc-300">
 					I'm a Sr. User Experience Designer with a passion for delighting customers one exceptional experience at a time.
 				</motion.p>
 				<motion.div

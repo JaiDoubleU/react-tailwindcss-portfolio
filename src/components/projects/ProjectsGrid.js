@@ -18,51 +18,31 @@ const ProjectsGrid = () => {
 	return (
 		<section className="pb-5 sm:pb-10 mt-5 sm:mt-5">
 			<div className="text-left">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-stone-500 dark:text-stone-200">
+				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-zinc-700 dark:text-zinc-300">
 					Projects
 				</p>
 			</div>
 
 			<div className="mt-5 sm:mt-5">
 				<h3
-					className="font-general-regular  text-left text-stone-500 dark:text-stone-200 text-md sm:text-xl mb-3 ">
+					className="font-general-regular  text-left  text-md sm:text-xl mb-3 text-zinc-700 dark:text-zinc-300 ">
 					Search projects by title or filter by category
 				</h3>
 				<div
-					className="flex justify-between border-b border-primary-light dark:border-secondary-dark  pb-3 gap-3 ">
-					<div className="flex justify-between gap-2">
+					className="flex justify-between border-b border-z-light dark:border-zinc-700   pb-3 gap-3 ">
+					<div className="flex justify-between gap-0">
 						<span
-							className="
-                                hidden
-                                sm:block
-                                bg-primary-light
-                                dark:bg-ternary-dark
-                                p-2.5
-                                shadow-sm
-                                rounded-xl
-                                cursor-pointer
+							className="font-general-medium pl-3 pr-1 sm:px-4 py-2 rounded-lg text-sm sm:text-md rounded-tr-none rounded-br-none border border-0 
+								 bg-zinc-200   dark:bg-zinc-600   text-zinc-800 dark:text-zinc-50
                                 ">
-							<FiSearch className="text-stone-700 dark:text-stone-200 w-5 h-5"></FiSearch>
+							<FiSearch className="w-5 h-5"></FiSearch>
 						</span>
 						<input
 							onChange={(e) => {
 								setSearchProject(e.target.value);
 							}}
-							className="font-general-medium 
-                                pl-3
-                                pr-1
-                                sm:px-4
-                                py-2
-                                border 
-                            border-gray-200
-                                dark:border-secondary-dark
-                                rounded-lg
-                                text-sm
-                                sm:text-md
-                                bg-secondary-light
-                                dark:bg-ternary-dark
-                                text-primary-dark
-                                dark:text-stone-200
+							className="font-general-medium pl-3 pr-1 sm:px-4 py-2 rounded-lg text-sm sm:text-md rounded-tl-none rounded-bl-none border border-l-white border-t-0 border-y-0 border-r-0 border-l-1 focus:border-transparent ring-transparent focus:ring-blue 
+								 bg-zinc-200   dark:bg-zinc-600 text-zinc-800 dark:text-zinc-50 
                                 "
 							id="name"
 							name="name"
@@ -85,6 +65,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+						        link={project.mockupURL}
 							/>
 					  ))
 					: searchProject
@@ -94,6 +75,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								link={project.mockupURL}
 							/>
 					  ))
 					: projects.map((project) => (
@@ -102,6 +84,7 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								link={project.mockupURL}
 							/>
 					  ))}
 			</div>

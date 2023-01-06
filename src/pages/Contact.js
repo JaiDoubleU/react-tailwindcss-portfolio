@@ -6,13 +6,13 @@ const Contact = () => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
+			animate={{ opacity: 1, delay: 1 }}
 			transition={{
 				ease: 'easeInOut',
 				duration: 0.5,
 				delay: 0.1,
 			}}
-			className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10 pt-20"
+			className="container mx-auto flex flex-col-reverse lg:flex-row px-4 pt-20 "
 		>
 			<ContactForm />
 			<ContactDetails />

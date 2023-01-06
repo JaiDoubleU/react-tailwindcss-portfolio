@@ -7,19 +7,19 @@ const ProjectSingleHeader = () => {
 
 	return (
 		<div>
-			<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
+			<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-neutral-900  dark:text-neutral-900 mt-14 sm:mt-20 mb-7">
 				{singleProjectData.ProjectHeader.title}
 			</p>
 			<div className="flex">
 				<div className="flex items-center mr-10">
 					<FiClock className="text-lg text-stone-700 dark:text-stone-200" />
-					<span className="font-general-regular ml-2 leading-none text-primary-dark dark:text-primary-light">
+					<span className="font-general-regular ml-2 leading-none text-neutral-900  dark:text-neutral-900">
 						{singleProjectData.ProjectHeader.publishDate}
 					</span>
 				</div>
 				<div className="flex items-center">
 					<FiTag className="text-lg text-stone-700 dark:text-stone-200" />
-					<span className="font-general-regular ml-2 leading-none text-primary-dark dark:text-primary-light">
+					<span className="font-general-regular ml-2 leading-none text-neutral-900  dark:text-neutral-900">
 						{singleProjectData.ProjectHeader.tags}
 					</span>
 				</div>

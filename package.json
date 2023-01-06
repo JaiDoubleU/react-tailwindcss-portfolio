@@ -4,21 +4,22 @@
 	"private": true,
 	"license": "MIT",
 	"dependencies": {
-		"@testing-library/jest-dom": "^5.11.4",
-		"@testing-library/react": "^11.1.0",
-		"@testing-library/user-event": "^12.1.10",
-		"framer-motion": "4.1.17",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^14.4.3",
+		"framer-motion": "8.1.9",
+		"html-entities": "^2.3.3",
 		"ncu": "^0.2.1",
 		"postcss-cli": "^10.1.0",
-		"react": "^18.1.0",
-		"react-countup": "^6.1.1",
-		"react-dom": "^18.1.0",
-		"react-icons": "^4.3.1",
-		"react-router-dom": "^6.0.2",
-		"react-scripts": "4.0.3",
-		"react-scroll": "^1.8.4",
-		"styled-components": "^5.3.3",
-		"web-vitals": "^1.0.1"
+		"react": "^18.2.0",
+		"react-countup": "^6.4.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.7.1",
+		"react-router-dom": "^6.6.1",
+		"react-scripts": "5.0.1",
+		"react-scroll": "^1.8.9",
+		"styled-components": "^5.3.6",
+		"web-vitals": "^3.1.0"
 	},
 	"scripts": {
 		"start": "yarn run build:css && react-scripts start",
@@ -26,7 +27,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
-    	"firebase-useThenDeploy": "yarn run react-scripts build &&  firebase use \"website-ad1df\" &&  firebase deploy",
+		"firebase-useThenDeploy": "yarn run react-scripts build &&  firebase use \"website-ad1df\" &&  firebase deploy",
 		"firebase-deploy": "firebase deploy --token \"1//062FMoaxU2P4YCgYIARAAGAYSNwF-L9IreL2fshYBGkQkyRzbO5xIDMwExyEZxfbTprIDlQTDlxBcBXDMbGvMkeWmYjrcB78WNtU\""
 	},
 	"eslintConfig": {
@@ -48,9 +49,9 @@
 		]
 	},
 	"devDependencies": {
-		"@tailwindcss/forms": "^0.5.2",
-		"autoprefixer": "^10.4.7",
+		"@tailwindcss/forms": "^0.5.3",
+		"autoprefixer": "^10.4.13",
 		"postcss": "^8.4.20",
-		"tailwindcss": "^3.0.24"
+		"tailwindcss": "^3.2.4"
 	}
 }

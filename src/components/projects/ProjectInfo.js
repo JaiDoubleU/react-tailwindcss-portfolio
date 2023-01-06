@@ -9,7 +9,7 @@ const ProjectInfo = () => {
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
 				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-stone-200 mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-neutral-900 dark:text-stone-200 mb-2">
 						{singleProjectData.ProjectInfo.ClientHeading}
 					</p>
 					<ul className="leading-loose">
@@ -22,7 +22,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href="#nogo;"
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'
@@ -45,7 +45,7 @@ const ProjectInfo = () => {
 					<p className="font-general-regular text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
 						{singleProjectData.ProjectInfo.ObjectivesHeading}
 					</p>
-					<p className="font-general-regular text-primary-dark dark:text-stone-200">
+					<p className="font-general-regular text-neutral-900  dark:text-stone-200">
 						{singleProjectData.ProjectInfo.ObjectivesDetails}
 					</p>
 				</div>
@@ -55,7 +55,7 @@ const ProjectInfo = () => {
 					<p className="font-general-regular text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
 						{singleProjectData.ProjectInfo.Technologies[0].title}
 					</p>
-					<p className="font-general-regular text-primary-dark dark:text-stone-200">
+					<p className="font-general-regular text-neutral-900  dark:text-stone-200">
 						{singleProjectData.ProjectInfo.Technologies[0].techs.join(
 							', '
 						)}
@@ -76,7 +76,7 @@ const ProjectInfo = () => {
 										href={social.url}
 										target="__blank"
 										aria-label="Share Project"
-										className="bg-ternary-light dark:bg-ternary-dark text-stone-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+										className="bg-ternary-light dark:bg-ternary-dark text-stone-400 hover:text-neutral-900  dark:hover:text-neutral-900  p-2 rounded-lg shadow-sm duration-500"
 									>
 										<span className="text-lg lg:text-2xl">
 											{social.icon}
@@ -91,7 +91,7 @@ const ProjectInfo = () => {
 
 			{/*  Single project right section */}
 			<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-				<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+				<p className="font-general-regular text-neutral-900  dark:text-neutral-900 text-2xl font-bold mb-7">
 					{singleProjectData.ProjectInfo.ProjectDetailsHeading}
 				</p>
 				{singleProjectData.ProjectInfo.ProjectDetails.map((details) => {

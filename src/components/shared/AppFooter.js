@@ -26,11 +26,11 @@ const socialLinks = [
 
 const AppFooter = () => {
 	return (
-		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-700 text-white w-full  px-3 ">
-			<div className="pt-10 pb-8 mt-10 border-t-2 border-primary-light dark:border-secondary-dark">
+		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-900 text-white w-full  px-3 ">
+			<div className="mt-1 border-t-2 border-z-light dark:border-zinc-800 ">
 				{/* Footer social links */}
-				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-8">
+					<p className="text-lg sm:text-4xl light:text-zinc-700 dark:text-zinc-200 mb-5">
 						Follow me
 					</p>
 					<ul className="flex gap-4 sm:gap-8">
@@ -39,9 +39,9 @@ const AppFooter = () => {
 								href={link.url}
 								target="__blank"
 								key={link.id}
-								className="text-stone-600 hover:text-green-500 dark:hover:text-green-400 cursor-pointer rounded-lg bg-gray-300 dark:bg-zinc-500 hover:bg-gray-100 shadow-sm p-4 duration-300"
+								className="light:text-zinc-700 dark:text-zinc-200 hover:text-green-500 dark:hover:text-green-400 cursor-pointer rounded-lg bg-gray-300 dark:bg-zinc-500 hover:bg-gray-100 shadow-sm p-4 duration-300"
 							>
-								<i className="text-xl sm:text-2xl md:text-3xl">
+								<i className="text-2xl">
 									{link.icon}
 								</i>
 							</a>
