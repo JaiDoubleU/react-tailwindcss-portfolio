@@ -9,15 +9,17 @@ const ProjectInfo = () => {
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
 				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-neutral-900 dark:text-stone-200 mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-zinc-700 dark:text-zinc-200 mb-2">
 						{singleProjectData.ProjectInfo.ClientHeading}
+									   {singleProjectData.ProjectInfo.id}
+
 					</p>
 					<ul className="leading-loose">
 						{singleProjectData.ProjectInfo.CompanyInfo.map(
 							(info) => {
 								return (
 									<li
-										className="font-general-regular text-stone-700 dark:text-stone-200"
+										className="font-general-regular text-zinc-700 dark:text-zinc-200"
 										key={info.id}
 									>
 										<span>{info.title}: </span>
@@ -42,16 +44,16 @@ const ProjectInfo = () => {
 
 				{/* Single project objectives */}
 				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-zinc-700 dark:text-zinc-200 mb-2">
 						{singleProjectData.ProjectInfo.ObjectivesHeading}
 					</p>
-					<p className="font-general-regular text-neutral-900  dark:text-stone-200">
+					<p className="font-general-regular text-zinc-700 dark:text-zinc-200">
 						{singleProjectData.ProjectInfo.ObjectivesDetails}
 					</p>
 				</div>
 
 				{/* Single project technologies */}
-				<div className="mb-7">
+				{/* <div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
 						{singleProjectData.ProjectInfo.Technologies[0].title}
 					</p>
@@ -60,10 +62,10 @@ const ProjectInfo = () => {
 							', '
 						)}
 					</p>
-				</div>
+				</div> */}
 
 				{/* Single project social sharing */}
-				<div>
+				{/* <div>
 					<p className="font-general-regular text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
 						{singleProjectData.ProjectInfo.SocialSharingHeading}
 					</p>
@@ -86,19 +88,19 @@ const ProjectInfo = () => {
 							}
 						)}
 					</div>
-				</div>
+				</div> */}
 			</div>
 
 			{/*  Single project right section */}
 			<div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-				<p className="font-general-regular text-neutral-900  dark:text-neutral-900 text-2xl font-bold mb-7">
+				<p className="font-general-regular text-zinc-700 dark:text-zinc-200 text-2xl font-bold mb-7">
 					{singleProjectData.ProjectInfo.ProjectDetailsHeading}
 				</p>
 				{singleProjectData.ProjectInfo.ProjectDetails.map((details) => {
 					return (
 						<p
 							key={details.id}
-							className="font-general-regular mb-5 text-lg text-stone-700 dark:text-stone-200"
+							className="font-general-regular mb-5 text-lg text-zinc-700 dark:text-zinc-200"
 						>
 							{details.details}
 						</p>

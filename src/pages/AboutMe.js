@@ -33,7 +33,7 @@ const About = () => {
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
-				className="container mx-auto pt-10"
+				className="container mx-auto px-4 pt-2"
 			>
 				<AboutClients />
 			</motion.div>

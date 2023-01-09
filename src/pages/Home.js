@@ -13,7 +13,7 @@ const Home = () => {
 				<ProjectsGrid></ProjectsGrid>
 			</ProjectsProvider>
 
-			<div className="mt-8 sm:mt-10 flex justify-center">
+			<div className="my-8 sm:my-10 flex justify-center">
 				<Link
 					to="/projects"
 					className="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-green-500 hover:bg-green-600 focus:ring-1 focus:ring-green-900 text-white text-lg sm:text-xl duration-300"

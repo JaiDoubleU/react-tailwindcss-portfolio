@@ -6,7 +6,6 @@ import HireMeModal from '../HireMeModal';
 import logoDark from '../../images/LogoDark.svg';
 import logoLight from '../../images/LogoDark.svg';
 import { motion } from 'framer-motion';
-import Button from '../reusable/Button';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
@@ -40,7 +39,7 @@ const AppHeader = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className=" sm:mx-auto dark:bg-zinc-900 bg-zinc-700  text-zinc-100 dark:text-zinc-300 hover:text-zinc-100w-full fixed top-0 left-0 right-0 px-6 z-50">
+			className="whitespace-nowrap  sm:mx-auto dark:bg-zinc-900 bg-zinc-700  text-zinc-100 dark:text-zinc-300 hover:text-zinc-100w-full fixed top-0 left-0 right-0 px-6 z-50">
 			<div className="z-10 w-full block sm:flex sm:justify-between sm:items-center py-2 ">
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-3 sm:px-0">
@@ -110,7 +109,7 @@ const AppHeader = () => {
 					<Link
 						onClick={() => setShowMenu(false)}
 						to="/"
-						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
+						className="block text-nowrap text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Home"
 					>
 						Home
@@ -126,7 +125,7 @@ const AppHeader = () => {
 					<Link
 						onClick={() => setShowMenu(false)}
 						to="/about"
-						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
+						className="block whitespace-nowrap text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me

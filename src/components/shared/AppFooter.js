@@ -26,14 +26,14 @@ const socialLinks = [
 
 const AppFooter = () => {
 	return (
-		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-900 text-white w-full  px-3 ">
-			<div className="mt-1 border-t-2 border-z-light dark:border-zinc-800 ">
+		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-900 text-white w-full px-3 ">
+			<div className="mt-1 border-t-2 border-z-light dark:border-zinc-800 pt-1">
 				{/* Footer social links */}
-				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-8">
-					<p className="text-lg sm:text-4xl light:text-zinc-700 dark:text-zinc-200 mb-5">
+				<div className="font-general-regular flex flex-col justify-center items-center my-1">
+					{/* <p className="text-lg sm:text-4xl light:text-zinc-700 dark:text-zinc-200 mb-5">
 						Follow me
-					</p>
-					<ul className="flex gap-4 sm:gap-8">
+					</p> */}
+					{/* <ul className="flex gap-4 sm:gap-8">
 						{socialLinks.map((link) => (
 							<a
 								href={link.url}
@@ -46,7 +46,7 @@ const AppFooter = () => {
 								</i>
 							</a>
 						))}
-					</ul>
+					</ul> */}
 				</div>
 
 				<AppFooterCopyright />

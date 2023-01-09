@@ -366,8 +366,8 @@ module.exports = {
             DEFAULT: "1",
         },
         fontFamily: {
-            sans: ["Roboto Flex", "sans-serif"],
-            heading: ["Roboto Flex", "sans-serif"],
+            sans: ["GeneralSans", "sans-serif"],
+            heading: ["GeneralSans", "sans-serif"],
             serif: [
                 "ui-serif",
                 "Georgia",
