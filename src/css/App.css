@@ -11,7 +11,10 @@
 
 body {
 	font-family: 'GeneralSans-Variable';
+	height: 100vh;
 }
+
+#root { height: 100vh}
 
 /* Fonts */
 @font-face {

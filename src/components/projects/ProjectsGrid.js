@@ -23,7 +23,7 @@ const ProjectsGrid = () => {
 				</p>
 			</div>
 
-			<div className="mt-5 sm:mt-5">
+			{/* <div className="mt-5 sm:mt-5">
 				<h3
 					className="font-general-regular  text-left  text-md sm:text-xl mb-3 text-zinc-700 dark:text-zinc-300 ">
 					Search projects by title or filter by category
@@ -55,7 +55,7 @@ const ProjectsGrid = () => {
 
 					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
-			</div>
+			</div> */}
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
@@ -84,7 +84,9 @@ const ProjectsGrid = () => {
 								image={project.img}
 								key={project.id}
 								id={project.id}
-							/>
+						/>
+						
+				
 					  ))}
 			</div>
 		</section>

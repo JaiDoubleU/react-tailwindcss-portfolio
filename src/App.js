@@ -14,7 +14,7 @@ import UseScrollToTop from './hooks/useScrollToTop';
 function App() {
 	return (
 		<AnimatePresence>
-			<div className="bg-zinc-400 dark:bg-zinc-700 transition duration-300">
+			<div className="h-100 bg-zinc-400 dark:bg-zinc-700 transition duration-300">
 				<Router>
 					<AppHeader />
 					<ScrollToTop />

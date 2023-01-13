@@ -7,7 +7,7 @@ const ProjectSingleHeader = () => {
 	return (
 		<div>
 			<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-zinc-800 dark:text-zinc-200 mt-14 sm:mt-20 mb-7">
-				{singleProjectData.ProjectHeader.title} {singleProjectData.key}
+				{singleProjectData.ProjectHeader.title}
 			</p>
 			<div className="flex">
 				<div className="flex items-center mr-10">

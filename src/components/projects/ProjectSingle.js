@@ -12,7 +12,7 @@ const ProjectSingle = ({ title, category, image, key, id }) => {
 				delay: 0.15,
 			}}
 		>
-			{/* <Link to="/projects/single-project/" aria-label="Single Project">Link {id} </Link>  */}
+		<Link to="/projects/single-project/" params={{ id: "id" }}  aria-label="Single Project">
 			<div  aria-label="Single Project">
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-zinc-300  dark:bg-zinc-600">
 					<div>
@@ -32,7 +32,8 @@ const ProjectSingle = ({ title, category, image, key, id }) => {
 						
 					</div>
 				</div>
-			</div>
+				</div>
+		    </Link> 
 		</motion.div>
 	);
 };

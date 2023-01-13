@@ -26,7 +26,7 @@ const socialLinks = [
 
 const AppFooter = () => {
 	return (
-		<div className="sm:mx-auto dark:bg-zinc-900 bg-zinc-900 text-white w-full px-3 ">
+		<div className="fixed bottom-0 left-0 right-0 sm:mx-auto dark:bg-zinc-900 bg-zinc-900 text-white w-full px-3 ">
 			<div className="mt-1 border-t-2 border-z-light dark:border-zinc-800 pt-1">
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center my-1">
