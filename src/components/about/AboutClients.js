@@ -6,12 +6,12 @@ const AboutClients = () => {
 	const { clientsData, clientsHeading } = useContext(AboutMeContext);
 
 	return (
-		<div className="m-4">
-			<p className="font-general-medium text-xl sm:text-3xl mb-2 mt-2 text-stone-700 dark:text-stone-200 ">
+		<div className="m-2">
+			<p className="font-general-medium text-xl sm:text-3xl my-2 text-stone-700 dark:text-stone-200 ">
 					{clientsHeading}
 				</p>
 		
-			<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mt-10  gap-3 w-3/4">
+			<div className="grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-7 xl:grid-cols-7 mt-4  gap-2 w-full">
 				{clientsData.map((client) => (
 					<AboutClientSingle
 						title={client.title}

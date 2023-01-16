@@ -10,18 +10,18 @@ const ContactForm = () => {
 					}}
 					className="max-w-xl  sm:p-10 bg-zinc-800  dark:bg-zinc-800  rounded-xl shadow-xl text-left p-3"
 				>
-					<p className="font-general-medium text-neutral-900  dark:text-neutral-100 text-2xl mb-8">
+					<p className="font-general-medium text-zinc-200 dark:text-zinc-200 text-2xl mb-8">
 						Contact Form
 					</p>
 					<div className="font-general-regular">
 						<label
-							className="block text-lg text-zinc-900  dark:text-zinc-100 mb-2"
+							className="block text-lg text-zinc-200 dark:text-zinc-200 mb-2"
 							htmlFor="name"
 						>
 							Your Full Name
 						</label>
 						<input
-							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-900  dark:text-zinc-200 bg-zinc-400  rounded-md shadow-sm text-md"
+							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-200 dark:text-zinc-200 bg-zinc-400  rounded-md shadow-sm text-md"
 							id="name"
 							name="name"
 							type="text"
@@ -32,13 +32,13 @@ const ContactForm = () => {
 					</div>
 					<div className="mt-6">
 						<label
-							className="block text-lg text-zinc-900  dark:text-zinc-100 mb-2"
+							className="block text-lg text-zinc-200 dark:text-zinc-200 mb-2"
 							htmlFor="email"
 						>
 							Email
 						</label>
 						<input
-							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-900  dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
+							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-200 dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
 							id="email"
 							name="email"
 							type="text"
@@ -49,13 +49,13 @@ const ContactForm = () => {
 					</div>
 					<div className="mt-6">
 						<label
-							className="block text-lg text-zinc-900  dark:text-zinc-100 mb-2"
+							className="block text-lg text-zinc-200 dark:text-zinc-200 mb-2"
 							htmlFor="subject"
 						>
 							Subject
 						</label>
 						<input
-							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-900  dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
+							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-200 dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
 							id="subject"
 							name="subject"
 							type="text"
@@ -67,13 +67,13 @@ const ContactForm = () => {
 
 					<div className="mt-6">
 						<label
-							className="block text-lg text-zinc-900  dark:text-zinc-100 mb-2"
+							className="block text-lg text-zinc-200 dark:text-zinc-200 mb-2"
 							htmlFor="message"
 						>
 							Message
 						</label>
 						<textarea
-							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-900  dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
+							className="w-full px-5 py-2 border border-zinc-300 dark:border-zinc-500 border-opacity-50 text-zinc-200 dark:text-zinc-200 bg-zinc-400 dark:bg-ternary-dark rounded-md shadow-sm text-md"
 							id="message"
 							name="message"
 							cols="14"

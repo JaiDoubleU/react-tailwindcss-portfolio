@@ -73,7 +73,7 @@ const AppHeader = () => {
 									src={logoDark}
 									className="w-2/3"
 									alt="Dark Logo"
-								/>
+								/> 
 							) : (
 								<img
 									src={logoLight}
@@ -91,9 +91,9 @@ const AppHeader = () => {
 						className="block sm:hidden ml-0 bg-green-700 dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-stone-700 hover:text-stone-400 dark:text-stone-200 dark:hover:text-neutral-900  text-xl" />
+							<FiMoon className="moonIcon text-stone-700 hover:text-stone-400 dark:text-white dark:hover:text-neutral-900  text-xl" /> 
 						) : (
-							<FiSun className="text-stone-700 hover:text-stone-50 text-xl" />
+							<FiSun className="sunIcon text-stone-700 hover:text-stone-50 text-xl" />
 						)}
 					</div>
 				</div>
@@ -120,8 +120,9 @@ const AppHeader = () => {
 						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
-						Projects
+						Project
 					</Link>
+
 					<Link
 						onClick={() => setShowMenu(false)}
 						to="/about"
@@ -198,11 +199,11 @@ const AppHeader = () => {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-							className="ml-8 text-md font-general-medium bg-green-600 hover:bg-green-400 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+							className="ml-8 text-md font-general-medium bg-green-500 hover:bg-green-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-stone-300 hover:text-stone-100 dark:text-stone-200 dark:hover:text-neutral-900  text-xl" />
+							<FiMoon className="text-white hover:text-stone-100 dark:text-white dark:hover:text-neutral-900  text-xl" />
 						) : (
 							<FiSun className="text-stone-700 hover:text-stone-50 text-xl" />
 						)}

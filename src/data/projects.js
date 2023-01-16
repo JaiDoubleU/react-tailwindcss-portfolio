@@ -1,5 +1,8 @@
 // Import images
 import rfxDesktopImage1 from '../images/rfxMockup1DesktopIPad.png';
+import rfxDesktopImage2 from '../images/rfxMockup2DesktopIPad.png';
+import rfxDesktopImage3 from '../images/rfxMockup3DesktopIPhone.png';
+import dispatchMockupImage1 from '../images/dispatchMockup1.jpg';
 import WebImage2 from '../images/web-project-2.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
@@ -12,6 +15,11 @@ export const projectsData = [
 		title: 'Procurement RFX Application',
 		category: 'Web Application',
 		img: rfxDesktopImage1,
+		images: {
+			rfxDesktopImage1,
+			rfxDesktopImage2,
+			rfxDesktopImage3,
+		},
 		ProjectHeader: {
 			title: 'Procurement Request Management Application',
 			publishDate: 'Q1 2021',
@@ -26,7 +34,7 @@ export const projectsData = [
 		id: 2,
 		title: 'Major Application Redesign',
 		category: 'Web Application',
-		img: WebImage2,
+		img: dispatchMockupImage1,
 		ProjectHeader: {
 			title: 'Major Application Redesign',
 			publishDate: 'Q3 2021',
@@ -34,9 +42,24 @@ export const projectsData = [
 		},
 		ProjectBody:	{
 			details:
-				'This project was a proof of concept shown to attendees of an annual user conference to gauge interest in the offering',
+				'This project was something...',
 		},
-	}
+	},
+	{
+		id: 3,
+		title: 'Service UI',
+		category: 'Mobile Application',
+		img: UIImage1,
+		ProjectHeader: {
+			title: 'Mobile Redesign',
+			publishDate: 'Q3 2021',
+			tags: 'Mockup',
+		},
+		ProjectBody:	{
+			details:
+				'This project was another thing...',
+		},
+	},
 	/* ,
 	{
 		id: 2,
