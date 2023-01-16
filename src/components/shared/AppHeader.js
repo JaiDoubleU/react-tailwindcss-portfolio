@@ -167,6 +167,7 @@ const AppHeader = () => {
 					>
 						Projects
 					</Link>
+					
 					<Link
 						to="/about"
 						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  dark:hover:text-zinc-100   sm:mx-4 mb-2 sm:py-2"

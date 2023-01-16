@@ -13,6 +13,7 @@ export const AboutMeProvider = ({ children }) => {
 	const [clientsData, setClientsData] = useState(clientsDataJson);
 
 	return (
+		
 		<AboutMeContext.Provider
 			value={{
 				aboutMe,

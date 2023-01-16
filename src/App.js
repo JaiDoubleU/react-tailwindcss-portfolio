@@ -7,6 +7,9 @@ import About from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Project1 from './pages/Project1';
+import Project2 from './pages/Project2';
+
 import ProjectSingle from './pages/ProjectSingle';
 import { AnimatePresence } from 'framer-motion';
 import UseScrollToTop from './hooks/useScrollToTop';
@@ -25,7 +28,8 @@ function App() {
 							path="projects/single-project"
 							element={<ProjectSingle />}
 						/>
-
+						<Route path="project1" element={<Project1 />} />
+						<Route path="project2" element={<Project2 />} />
 						<Route path="about" element={<About />} />
 						<Route path="contact" element={<Contact />} />
 					</Routes>
