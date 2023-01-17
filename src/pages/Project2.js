@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 // import AboutMeBio from '../components/about/AboutMeBio';
 import Project2Bio from '../components/projects/Project2Bio';
 
+import dispatchMockupImage1 from '../images/dispatchMockup1.png';
+import  dispatchMockupImage2 from '../images/dispatchMockup1.png';
+import  dispatchMockupImage3 from '../images/dispatchMockup1.png';
 
 import { AboutMeProvider } from '../context/AboutMeContext';
 import { Project2Provider } from '../context/Project2Context';
@@ -38,11 +41,14 @@ const Project2 = () => {
                         </div>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-                        <div class="mb-10 sm:mb-0 {project.id} h-full"><img src="/static/media/dispatchMockup1.1d4b7bd56eb55c346e04.jpg" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" alt="Request Document Management Design" />
+                    <div class="mb-10 sm:mb-0 {project.id} h-full">
+                        <img class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage1} alt=""/>
                         </div>
-                        <div class="mb-10 sm:mb-0 {project.id} h-full"><img src="/static/media/dispatchMockup1.1d4b7bd56eb55c346e04.jpg" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" alt="Request Document Management Design" />
+                    <div class="mb-10 sm:mb-0 {project.id} h-full">
+                        <img class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage2} alt=""/>
                         </div>
-                        <div class="mb-10 sm:mb-0 {project.id}"><img src="/static/media/dispatchMockup1.1d4b7bd56eb55c346e04.jpg" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" alt="Request Document Management Design" />
+                    <div class="mb-10 sm:mb-0 {project.id}">
+                        <img class="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage3} alt=""/>
                         </div>
                     </div>
                     <div class="block sm:flex gap-0 sm:gap-10 mt-14">
