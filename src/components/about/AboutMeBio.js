@@ -9,7 +9,7 @@ const AboutMeBio = () => {
 		
 		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-10">
 			<div className="w-full sm:w-1/4 mb-7 sm:mb-0 mx-auto">
-				<img src={profileImage} className="rounded-lg w-96 mx-auto" alt="my profile image" />
+				<img src={profileImage} className="rounded-lg w-96 mx-auto" alt="" />
 			</div>
 
 			<div className="font-general-regular text-xl w-full sm:w-3/4 text-left">

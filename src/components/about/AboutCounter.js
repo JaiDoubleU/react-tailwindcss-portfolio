@@ -12,7 +12,7 @@ const AboutCounter = () => {
 			<div className="font-general-medium container mx-auto py-20 block sm:flex sm:justify-between items-center">
 				<div className="mb-10 sm:mb-0">
 					<h2 className="text-4xl text-center text-zinc-900 dark:text-zinc-200 mb-2">
-						<span id="experienceCounter" />+ <span class="text-sm">Years</span>
+						<span id="experienceCounter" />+ <span className="text-sm">Years</span>
 					</h2>
 					<span className="font-general-regular block text-md text-center text-zinc-900 dark:text-zinc-200 ">
 						Total Experience
@@ -21,7 +21,7 @@ const AboutCounter = () => {
 
 			 	<div className="mb-10 sm:mb-0">
 					<h2 className="text-4xl text-center text-zinc-900 dark:text-zinc-200 mb-2">
-						<span id="designCounter" />+ <span class="text-sm">Years</span>
+						<span id="designCounter" />+ <span className="text-sm">Years</span>
 					</h2>
 					<span className="font-general-regular block text-md text-center text-zinc-900 dark:text-zinc-200 ">
 						UX Design
@@ -30,7 +30,7 @@ const AboutCounter = () => {
 
 				<div className="mb-10 sm:mb-0">
 					<h2 className="text-4xl text-center text-zinc-900 dark:text-zinc-200 mb-2">
-						<span id="enterpriseUXCounter" />+ <span class="text-sm">Years</span>
+						<span id="enterpriseUXCounter" />+ <span className="text-sm">Years</span>
 					</h2>
 					<span className="font-general-regular block text-md text-center text-zinc-900 dark:text-zinc-200 ">
 						Enterprise UX
@@ -39,7 +39,7 @@ const AboutCounter = () => {
 
 				<div className="mb-10 sm:mb-0">
 					<h2 className="text-4xl text-center text-zinc-900 dark:text-zinc-200 mb-2">
-						<span id="userResearchCounter" />+ <span class="text-sm">Years</span>
+						<span id="userResearchCounter" />+ <span className="text-sm">Years</span>
 					</h2>
 					<span className="font-general-regular block text-md text-center text-zinc-900 dark:text-zinc-200 ">
 						User Research
@@ -48,7 +48,7 @@ const AboutCounter = () => {
 
 				<div className="mb-10 sm:mb-0">
 					<h2 className="text-3xl text-center text-zinc-900 dark:text-zinc-200 mb-2">
-						<span id="uxLeadershipCounter" />+ <span class="text-sm">Years</span>
+						<span id="uxLeadershipCounter" />+ <span className="text-sm">Years</span>
 					</h2>
 					<span className="font-general-regular block text-md text-center text-zinc-900 dark:text-zinc-200 ">
 						UX Leadership

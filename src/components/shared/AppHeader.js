@@ -66,7 +66,7 @@ const AppHeader = () => {
 						</button>
 					</div>
 
-					<div class="ml-2">
+					<div className="ml-2">
 						<Link to="/">
 							{activeTheme === 'dark' ? (
 								<img
@@ -114,14 +114,14 @@ const AppHeader = () => {
 					>
 						Home
 					</Link>
-					<Link
+					{/* <Link
 						onClick={() => setShowMenu(false)}
 						to="/projects"
 						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Project
-					</Link>
+					</Link> */}
 
 					<Link
 						onClick={() => setShowMenu(false)}
@@ -160,13 +160,13 @@ const AppHeader = () => {
 						Home
 					</Link>
 
-					<Link
+					{/* <Link
 						to="/projects"
 						className="block text-left text-lg text-zinc-400 dark:text-zinc-400 hover:text-zinc-100  dark:hover:text-zinc-100   sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
-					</Link>
+					</Link> */}
 					
 					<Link
 						to="/about"

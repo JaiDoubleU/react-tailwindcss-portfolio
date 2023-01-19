@@ -15,7 +15,6 @@ const ProjectGallery = () => {
 							alt={project.title}
 							key={project.id}
 						/>
-						<div>{project.id}</div>
 					</div>
 				);
 			})}

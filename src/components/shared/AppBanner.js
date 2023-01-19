@@ -23,7 +23,7 @@ const AppBanner = () => {
 						duration: 0.6,
 						delay: 0.2,
 					}}
-					className="font-general-semibold text-3xl lg:text-4xl xl:text-5xl text-center sm:text-left text-zinc-700 dark:text-zinc-300 hover:text-zinc-100"
+					className="font-general text-3xl lg:text-4xl xl:text-5xl text-center sm:text-left text-zinc-700 dark:text-zinc-300 hover:text-zinc-100"
 				>
 					Hi, I'm Jason
 				</motion.h1>
@@ -66,7 +66,7 @@ const AppBanner = () => {
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 				className="w-1/3 sm:w-1/3 text-right float-right mt-10"
 			> */}
-			<div class="w-1/3 sm:w-1/3 text-right float-right mt-10">
+			<div className="w-1/3 sm:w-1/3 text-right float-right mt-10">
 				<img src={activeTheme === 'dark' ? profilePicLight : profilePicDark}
 					alt="Profile Picture" className="w-full md:w-2/3"
 				/>
