@@ -32,11 +32,11 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Major Application Redesign',
+		title: 'Enterprise Application Design',
 		category: 'Web Application',
 		img: dispatchMockupImage1,
 		ProjectHeader: {
-			title: 'Major Application Redesign',
+			title: 'Enterprise Application Design',
 			publishDate: 'Q3 2021',
 			tags: 'Mockup',
 		},

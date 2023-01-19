@@ -27,7 +27,7 @@ import rfxDesktopImage3 from '../images/rfxMockup3DesktopIPhone.png';
 export const project2Data = [
 	{
 		id: 2,
-		title: 'Major Application Redesign',
+		title: 'Enterprise Application Design',
 		category: 'Web Application',
 	}
 ];

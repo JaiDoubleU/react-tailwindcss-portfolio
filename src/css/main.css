@@ -553,10 +553,6 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -898,14 +894,6 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -914,9 +902,17 @@ video {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .pt-20 {
   padding-top: 5rem;
@@ -1236,11 +1232,6 @@ video {
 }
 @media (min-width: 640px) {
 
-  .sm\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1418,14 +1409,14 @@ video {
     line-height: 2.5rem;
   }
 
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .sm\:text-lg {

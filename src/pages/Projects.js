@@ -24,7 +24,7 @@ const Projects = () => {
 								<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-zinc-300  dark:bg-zinc-600">
 									<div><img src="/static/media/dispatchMockup1.1d4b7bd56eb55c346e04.jpg" className="rounded-t-xl border-none" alt="Single Project"/></div>
 									<div className="text-center px-4 py-6">
-										<p className="font-general-medium text-lg md:text-xl text-zinc-900 dark:text-zinc-100 mb-2">Major Application Redesign</p><span className="text-lg text-stone-700 dark:text-stone-200">Web Application</span>
+										<p className="font-general-medium text-lg md:text-xl text-zinc-900 dark:text-zinc-100 mb-2">Enterprise Application Design</p><span className="text-lg text-stone-700 dark:text-stone-200">Web Application</span>
 									</div>
 								</div>
 							</div>
