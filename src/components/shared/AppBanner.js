@@ -49,6 +49,7 @@ const AppBanner = () => {
 					className="flex justify-center sm:block">
 					<a
 						download="Jason-Shannon-Resume.pdf"
+						// href="https://read.cv/jaidoubleu"
 						href="https://drive.google.com/file/d/1ojhQDThu2Homy1vh5dj7Y6Iql1jyAt1W/view?usp=sharing"
 						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg cursor-pointer py-2.5 sm:py-3 shadow-lg rounded-lg bg-green-500 hover:bg-green-600 text-white hover:text-white duration-500  "
 						aria-label="My Resume"
@@ -68,7 +69,7 @@ const AppBanner = () => {
 			> */}
 			<div className="w-1/3 sm:w-1/3 text-right float-right mt-10">
 				<img src={activeTheme === 'dark' ? profilePicLight : profilePicDark}
-					alt="Profile Picture" className="w-full md:w-2/3"
+					alt="" className="w-full md:w-2/3"
 				/>
 			</div>
 			{/* </motion.div> */}
