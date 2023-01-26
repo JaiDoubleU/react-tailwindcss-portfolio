@@ -645,6 +645,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-auto {
+  height: auto;
+}
 .h-2\/3 {
   height: 66.666667%;
 }
