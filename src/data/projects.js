@@ -3,11 +3,7 @@ import rfxDesktopImage1 from '../images/rfxMockup1DesktopIPad.png';
 import rfxDesktopImage2 from '../images/rfxMockup2DesktopIPad.png';
 import rfxDesktopImage3 from '../images/rfxMockup3DesktopIPhone.png';
 import dispatchMockupImage1 from '../images/dispatchMockup1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
 
 export const projectsData = [
 	{

@@ -1,13 +1,10 @@
 import { motion } from 'framer-motion';
-// import AboutMeBio from '../components/about/AboutMeBio';
-import Project2Bio from '../components/projects/Project2Bio';
 
 import dispatchMockupImage1 from '../images/dispatchMockup1.png';
 import  dispatchMockupImage2 from '../images/dispatchMockup1.png';
 import  dispatchMockupImage3 from '../images/dispatchMockup1.png';
 
 import { AboutMeProvider } from '../context/AboutMeContext';
-import { Project2Provider } from '../context/Project2Context';
 
 
 const Project2 = () => {

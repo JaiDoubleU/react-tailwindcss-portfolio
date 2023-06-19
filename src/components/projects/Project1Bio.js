@@ -1,4 +1,4 @@
-import profileImage from '../../images/profile-pic-circular-nov-2022.svg';
+import profileImage from '../../images/profilePicture.svg';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 import Project1Context from '../../context/Project1Context';

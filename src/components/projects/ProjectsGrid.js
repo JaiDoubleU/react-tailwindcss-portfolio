@@ -16,14 +16,14 @@ const ProjectsGrid = () => {
 	} = useContext(ProjectsContext);
 
 	return (
-		<section className="pb-5 sm:pb-10 mt-5 sm:mt-5">
+		<section className="pb-5 mt-5 sm:mt-5">
 			<div className="text-left">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-zinc-700 dark:text-zinc-300">
-					Projects
+					Recent Projects
 				</p>
 			</div>
 
-			<div className="mt-5 sm:mt-5">
+			<div className="mt-5 ">
 				<h3
 					className="font-general-regular  text-left  text-md sm:text-xl mb-3 text-zinc-700 dark:text-zinc-300 ">
 					Search projects by title or filter by category

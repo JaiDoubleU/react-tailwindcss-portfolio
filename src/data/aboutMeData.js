@@ -1,7 +1,7 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: "I'm Jason.    I am a full stack user experience designer, husband, and Dad based out of Calgary, Alberta, Canada. ",
+		bio: "I am Jason.    I am a full stack user experience designer, husband, and Dad based out of Calgary, Alberta, Canada. ",
 	},
 	{
 		id: 2,

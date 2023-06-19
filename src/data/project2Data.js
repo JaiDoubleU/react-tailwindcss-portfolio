@@ -1,7 +1,3 @@
-import rfxDesktopImage1 from '../images/rfxMockup1DesktopIPad.png';
-import rfxDesktopImage2 from '../images/rfxMockup2DesktopIPad.png';
-import rfxDesktopImage3 from '../images/rfxMockup3DesktopIPhone.png';
-
 // export const project1Data = [
 // 	{
 // 		id: 1,

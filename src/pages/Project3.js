@@ -1,20 +1,16 @@
 import { motion } from 'framer-motion';
-// import AboutMeBio from '../components/about/AboutMeBio';
-import Project2Bio from '../components/projects/Project2Bio';
 
 import dispatchMockupImage1 from '../images/dispatchMockup1.png';
 import  dispatchMockupImage2 from '../images/dispatchMockup1.png';
 import  dispatchMockupImage3 from '../images/dispatchMockup1.png';
 
 import { AboutMeProvider } from '../context/AboutMeContext';
-import { Project2Provider } from '../context/Project2Context';
-
 
 const Project3 = () => {
     return (
 
         <AboutMeProvider>
-            {/* <Project1Provider>Project 1</Project1Provider> */}
+            {/* <Project3Provider>Project 3</Project3Provider> */}
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, delay: 1 }}
