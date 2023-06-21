@@ -44,6 +44,7 @@ html {
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
+   background-color: #3f3f46;
 }
 
 /*
