@@ -33,6 +33,7 @@ html {
   tab-size: 4; /* 3 */
   font-family: GeneralSans, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
+  background-color: #3f3f46;
 }
 
 /*
@@ -86,7 +87,6 @@ Reset links to optimize for opt-in styling instead of opt-out.
 
 a {
   color: inherit;
-  cursor: pointer;
   text-decoration: inherit;
 }
 
@@ -944,6 +944,9 @@ video {
 .pb-5 {
   padding-bottom: 1.25rem;
 }
+.pt-3 {
+  padding-top: 0.75rem;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -955,9 +958,6 @@ video {
 }
 .pb-3 {
   padding-bottom: 0.75rem;
-}
-.pt-3 {
-  padding-top: 0.75rem;
 }
 .text-left {
   text-align: left;

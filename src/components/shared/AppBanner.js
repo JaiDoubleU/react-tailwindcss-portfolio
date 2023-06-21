@@ -12,14 +12,14 @@ const AppBanner = () => {
 		<motion.section
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
-			transition={{ ease: 'easeInOut', duration: 0.6, delay: 0.2 }}
+			transition={{ ease: 'easeInOut', duration: 0.3, delay: 0.2 }}
 			className="flex flex-col sm:justify-between items-center sm:flex-row ">
 			
 			<div className="w-auto text-left text-zinc-500 dark:text-zinc-700 hover:text-zinc-100 ">
 				<div className="w-full sm:w-1/2 text-right float-right mt-10 mb-5 md:hidden items-center">
 			
 					<img src={activeTheme === 'dark' ? profilePicLight : profilePicDark}
-					alt="" className="w-1/2 mx-auto"
+					alt="" className="w-1/3 mx-auto"
 				/> 
 				</div>
 				<motion.h3
@@ -27,10 +27,10 @@ const AppBanner = () => {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.6,
+						duration: 0.3,
 						delay: 0.2,
 					}}
-					className="font-general text-3xl lg:text-4xl xl:text-5xl text-center sm:text-left mt-10 text-zinc-700 dark:text-zinc-300 hover:text-zinc-100"
+					className="font-general text-3xl text-center sm:text-left mt-10 text-zinc-700 dark:text-zinc-300 hover:text-zinc-100"
 				>
 					Hi, I'm Jason
 				</motion.h3>
@@ -39,10 +39,10 @@ const AppBanner = () => {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.6,
+						duration: 0.3,
 						delay: 0.2,
 					}}
-					className="font-general mt-4 text-xl md:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-zinc-700 dark:text-zinc-300">
+					className="font-general mt-4 text-xl text-center sm:text-left leading-normal text-zinc-700 dark:text-zinc-300">
 					A Product Designer with a passion for delighting users, one exceptional experience at a time.
 				</motion.p>
 				<motion.div
@@ -50,7 +50,7 @@ const AppBanner = () => {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.6,
+						duration: 0.3,
 						delay: 0.2,
 					}}
 					className="flex justify-center md:block w-auto">
@@ -72,7 +72,7 @@ const AppBanner = () => {
 			
 			<div className="w-auto text-right mt-10 hidden md:block">
 				<img src={activeTheme === 'dark' ? profilePicLight : profilePicDark}
-					alt="" className="w-1/2 mx-auto"
+					alt="" className="w-1/3 mx-auto"
 				/> 
 			</div>
 		</motion.section>

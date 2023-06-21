@@ -22,7 +22,7 @@ const Project2 = () => {
                         &larr; Back
                     </a>
                     <p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-zinc-800 dark:text-zinc-200 mt-6 mb-7">
-                        Major Application Redesign</p>
+                        Enterprise Application Design</p>
 
                     <div className="flex">
                         <div className="flex items-center mr-10">
@@ -39,36 +39,53 @@ const Project2 = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
                     <div className="mb-10 sm:mb-0 {project.id} h-full">
-                        <img className="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage1} alt=""/>
+                        <img className="rounded-xl shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage1} alt=""/>
                         </div>
                     <div className="mb-10 sm:mb-0 {project.id} h-full">
-                        <img className="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage2} alt=""/>
+                        <img className="rounded-xl shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage2} alt=""/>
                         </div>
                     <div className="mb-10 sm:mb-0 {project.id}">
-                        <img className="rounded-xl cursor-pointer shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage3} alt=""/>
+                        <img className="rounded-xl shadow-lg sm:shadow-none h-full" 	src={dispatchMockupImage3} alt=""/>
                         </div>
                     </div>
                     <div className="block sm:flex gap-0 sm:gap-10 mt-14">
                         <div className="w-full sm:w-1/3 text-left">
                             <div className="mb-7">
-                                <p className="font-general-regular text-2xl font-semibold text-zinc-700 dark:text-zinc-200 mb-2">About Client</p>
+                                <p className="font-general-regular text-2xl font-semibold text-zinc-700 dark:text-zinc-200 mb-2">The Deliverable</p>
                                 <ul className="leading-loose">
-                                    <li className="font-general-regular text-zinc-700 dark:text-zinc-200"><span>Name: </span><a href="#nogo;" className="" aria-label="Project Website and Phone">Company Ltd</a></li>
-                                    <li className="font-general-regular text-zinc-700 dark:text-zinc-200"><span>Services: </span><a href="#nogo;" className="" aria-label="Project Website and Phone">UI Design &amp; Frontend Development</a></li>
-                                    <li className="font-general-regular text-zinc-700 dark:text-zinc-200"><span>Website: </span><a href="#nogo;" className="hover:underline hover:text-green-500 dark:hover:text-green-400 cursor-pointer duration-300" aria-label="Project Website and Phone">https://company.com</a></li>
-                                    <li className="font-general-regular text-zinc-700 dark:text-zinc-200"><span>Phone: </span><a href="#nogo;" className="hover:underline hover:text-green-500 dark:hover:text-green-400 cursor-pointer duration-300" aria-label="Project Website and Phone">555 8888 888</a></li>
+                                    <li className="font-general-regular text-zinc-700 dark:text-zinc-200">An interactive mockup that illustrates a seamless navigation between multiple existing applications.</li>        
+                                    {/* <li className="font-general-regular text-zinc-700 dark:text-zinc-200 pt-3">
+                                    <a href="https://codepen.io/jwshannon/pen/bgEeYW"
+                                        target="_blank" className=" text-md font-general-medium bg-green-500 hover:bg-green-600 text-white shadow-sm rounded-md px-5 py-2.5 mb-6  duration-300" rel="noreferrer">
+                                            View the Mockup
+                                        </a>
+                                    </li> */}
                                 </ul>
                             </div>
-                            <div className="mb-7">
-                                <p className="font-general-regular text-2xl font-semibold text-zinc-700 dark:text-zinc-200 mb-2">Objective</p>
-                                <p className="font-general-regular text-zinc-700 dark:text-zinc-200">An application for creating, sending, and tracking procurement information request documents sent to various companies</p>
-                            </div>
-                        </div>
-                        <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-                            <p className="font-general-regular text-zinc-700 dark:text-zinc-200 text-2xl font-bold mb-7">About The Design</p>
-                            <p className="font-general-regular mb-5 text-lg text-zinc-700 dark:text-zinc-200">This project was a proof of concept shown to attendees of an annual user conference to gauge interest in the offering</p>
-                        </div>
                     </div>
+                     <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
+                        <p className="font-general-regular text-zinc-700 dark:text-zinc-200 text-2xl font-bold mb-5">
+                                The Problem
+                            </p>
+                            <p className="font-general-regular mb-5 text-lg text-zinc-700 dark:text-zinc-200">
+                                Following a major acquisition, the company was faced the task of seamlessly integrating multiple pre-existing applications using a common navigation strategy.
+                            </p>
+
+                            <p className="font-general-regular text-zinc-700 dark:text-zinc-200 text-2xl font-bold mb-5">The Challenge</p>
+                            <p className="font-general-regular mb-5 text-lg text-zinc-700 dark:text-zinc-200">
+                                The objective of this project was to enhance the user experience by redesigning multiple existing applications to feature a unified navigation system. The primary goal was to ensure that navigating between these applications appeared seamless and intuitive for end users.
+                            </p>
+
+                            <p className="font-general-regular text-zinc-700 dark:text-zinc-200 text-2xl font-bold mb-5">The Result</p>
+                            <p className="font-general-regular mb-5 text-lg text-zinc-700 dark:text-zinc-200">
+                                By implementing a common navigational strategy, the company successfully transformed the user experience across multiple applications. The redesigned navigation system provided a cohesive and seamless journey for end users, enabling them to effortlessly navigate between different applications and access desired features with ease. This enhancement not only improved user satisfaction but also increased productivity and efficiency within the organization.
+                            </p>
+                    </div>
+                       
+                    </div>
+                    
+                   
+                
 
                 </motion.div>
         </AboutMeProvider>

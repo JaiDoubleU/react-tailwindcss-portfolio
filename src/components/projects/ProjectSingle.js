@@ -8,8 +8,8 @@ const ProjectSingle = ({ title, category, image }) => {
 			animate={{ opacity: 1, delay: 1 }}
 			transition={{
 				ease: 'easeInOut',
-				duration: 0.7,
-				delay: 0.15,
+				duration: 0.3,
+				delay: 0.2,
 			}}
 		>
 		<Link to="/projects/single-project/" aria-label="Single Project">

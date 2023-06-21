@@ -26,7 +26,7 @@
 		"build": "yarn run build:css && react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"ncu":"npx npm-check-updates",
+		"ncu": "npx npm-check-updates",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
 		"firebase-buildThenDeploy": "yarn run react-scripts build && firebase deploy",
 		"firebase-deploy": "yarn run build firebase use \"website-ad1df\" && firebase deploy"

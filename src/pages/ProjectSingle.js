@@ -13,8 +13,8 @@ const ProjectSingle = () => {
 			animate={{ opacity: 1, delay: 1 }}
 			transition={{
 				ease: 'easeInOut',
-				duration: 0.6,
-				delay: 0.15,
+				duration: 0.3,
+				delay: 0.2,
 			}}
 			className="container mx-auto px-4 pt-20"
 		>

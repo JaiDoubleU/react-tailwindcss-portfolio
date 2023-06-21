@@ -12,7 +12,7 @@ const About = () => {
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
 				exit={{ opacity: 0 }}
-				className="container mx-auto px-4 pt-20 ">
+				className="container mx-auto px-4 pt-20 h-full">
 				<div className="pb-5 sm:pb-10 mt-5 sm:mt-5 font-general-medium text-2xl sm:text-4xl text-zinc-700 dark:text-zinc-300">
 				{/* <div className="font-general-medium text-2xl sm:text-4xl mb-1 text-zinc-700 dark:text-zinc-300"> */}
 					About Me
