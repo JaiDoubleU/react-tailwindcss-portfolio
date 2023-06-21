@@ -32,7 +32,7 @@ const ProjectsGrid = () => {
 					className="flex justify-between border-b border-z-light dark:border-zinc-700   pb-3 gap-3 ">
 					<div className="flex justify-between gap-0">
 						<span
-							className="font-general-medium pl-3 pr-1 sm:px-4 py-2 rounded-lg text-sm sm:text-md rounded-tr-none rounded-br-none border border-0 
+							className="font-general-medium pl-3 pr-1 sm:px-4 py-2 rounded-lg text-sm sm:text-md rounded-tr-none rounded-br-none border-0 
 								 bg-zinc-200   dark:bg-zinc-600   text-zinc-800 dark:text-zinc-50
                                 ">
 							<FiSearch className="w-5 h-5"></FiSearch>
