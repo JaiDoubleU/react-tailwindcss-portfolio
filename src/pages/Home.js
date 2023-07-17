@@ -46,14 +46,14 @@ const Home = () => {
 					<div className="mb-10 sm:mb-0 p-6  bg-zinc-600 rounded-3xl shadow-lg">
 						<span className="font-general-regular block text-base text-center text-zinc-900 dark:text-zinc-200 items-center">
 							<img height="50px" width="100px" className="rounded cursor-pointer shadow-lg sm:shadow-none h-auto m-auto" src={collaborationImg} alt="" />
-							<div className="flex-wrap break-words">People Are<br/>Your Biggest Asset</div>
+							<div className="flex-wrap break-words">People <u>Are</u><br/>Your Biggest Asset</div>
 						</span>
 					</div>
 
 					<div className="mb-10 sm:mb-0 p-6 bg-zinc-600  rounded-3xl shadow-lg">
 						<span className="font-general-regular block text-base text-center text-zinc-900 dark:text-zinc-200 ">
 							<img height="50px" width="100px" className="rounded cursor-pointer shadow-lg sm:shadow-none h-auto m-auto" src={understandImg} alt="" />
-							<div className="flex-wrap break-words">Always<br/>Understand "Why"</div>
+							<div className="flex-wrap break-words">Seek to<br/>Understand "Why"</div>
 						</span>
 					</div>	
 					<div className="mb-10 sm:mb-0 p-6 bg-zinc-600  rounded-3xl shadow-lg">
