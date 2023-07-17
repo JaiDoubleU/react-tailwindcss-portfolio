@@ -71,7 +71,7 @@ const Home = () => {
 					<div className="mb-10 sm:mb-0 p-6 bg-zinc-600 rounded-3xl shadow-lg">
 						<span className="font-general-regular block text-base text-center text-zinc-900 dark:text-zinc-200 ">
 							<img height="50px" width="100px" className="rounded cursor-pointer shadow-lg sm:shadow-none h-auto m-auto" src={flexibilityImg} alt="" />
-							<div className="flex-wrap break-words">Flexibility is<br/>My Superpower</div>
+							<div className="flex-wrap break-words">Flexibility is<br/>Your Superpower</div>
 						</span>
 					</div>
 			</div>
