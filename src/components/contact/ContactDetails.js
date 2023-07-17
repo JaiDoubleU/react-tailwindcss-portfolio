@@ -24,11 +24,13 @@ const contacts = [
 
 const ContactDetails = () => {
 	return (
+		
 		<div className="w-full lg:w-1/2">
 			<div className="text-left max-w-xl px-6">
-				<h2 className="font-general-medium text-2xl light:text-zinc-700 dark:text-zinc-200 mt-12 mb-8">
+				
+				{/* <h2 className="pb-5 sm:pb-10font-general-medium text-2xl sm:text-4xl text-zinc-700 dark:text-zinc-300">
 					Contact Details
-				</h2>
+				</h2> */}
 				<ul className="font-general-regular">
 					{contacts.map((contact) => (
 						<li className="flex " key={contact.id}>

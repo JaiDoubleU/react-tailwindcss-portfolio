@@ -37,7 +37,7 @@ const AppHeader = () => {
 	return (
 		<motion.nav
 			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
+			animate={{ opacity: 1, delay: 2 }}
 			id="nav"
 			className="whitespace-nowrap  sm:mx-auto dark:bg-zinc-900 bg-zinc-700  text-zinc-100 dark:text-zinc-300 hover:text-zinc-100w-full fixed top-0 left-0 right-0 px-6 z-50">
 			<div className="z-10 w-full block sm:flex sm:justify-between sm:items-center py-2 ">
